@@ -264,19 +264,13 @@ li:last-child {
   padding-bottom: 94px;
 }
 
-.team > .container,
-.about > .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .about-title,
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-align: center;
 
   color: #212121;
 
@@ -330,20 +324,14 @@ li:last-child {
 }
 
 .div-team {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer > .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .footer > .container > .logo {
